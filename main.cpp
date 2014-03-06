@@ -26,7 +26,7 @@ bool CompareStrings (string str1, string str2){
 	}
 }
 
-bool Valid_Identifier(string str){
+bool Valid_Keywords(string str){
     string ListOfIdentifiers [] = {"__abstract", "__alignof Operator", "__asm", "__assume", "__based", "__box",
     "__cdecl","__declspec", "__delegate", "__event", "__except", "__fastcall", "__finally", "__forceinline",
     "__gc", "__hook","__identifier", "__if_exists", "__if_not_exists", "__inline", "__int16", "__int32",
