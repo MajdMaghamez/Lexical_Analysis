@@ -8,7 +8,7 @@ int main (){
 	return 0;
 }
 
-bool CompareStrings (string str1, string str2){
+bool ValidateKeywords (string str1, string str2){
 	int points = 0;
 	for(int i = 0; i < str1.length(); i++){
 		if(str1[i] == str2[i]){
